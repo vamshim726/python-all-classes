@@ -60,8 +60,29 @@
 # print -10 to -1
 
 
-i=-10
+# i=-10
 
-while i<=-1:
-    print(i)
+# while i<=-1:
+#     print(i)
+#     i+=1
+
+
+
+
+
+s=[2,3,4, 5,8,9]
+# half decending, half ascending
+
+
+half=len(s)//2
+
+i=0
+while i<=len(s):
+    if i>half:
+        print(s[-i]) 
+    j=0
+    if i<half:
+        print(s[j+half])
+        
     i+=1
+
