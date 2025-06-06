@@ -8,4 +8,4 @@ if num>1:
     else:
         print("Number is Prime")
 else:
-    print("Enter a valid Number")
+    print("Enter a valid Number") 
